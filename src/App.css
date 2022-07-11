@@ -37,3 +37,15 @@
       background: rgb(62, 206, 146);
       transition: all 0.3s ease-in-out ;
 }
+.ScrollList {
+     overflow: scroll;
+      margin: 0 auto;
+      width: 500px;
+      height: 400px;
+      border: 1px solid black;
+}
+.List-child {
+      border: 2px solid black;
+      margin: 5px;
+      padding: 5px;
+}
