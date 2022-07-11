@@ -5,7 +5,7 @@ export const useInput = (initialValue) => {
  
  const [ value, setValue] = useState (initialValue)
 
- const onChange = (el) => {
+ const onChange = el => {
     setValue ( el.target.value )
  }
 
@@ -13,5 +13,5 @@ export const useInput = (initialValue) => {
     value,
     onChange
  }
- 
+
 }

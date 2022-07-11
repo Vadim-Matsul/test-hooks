@@ -1,23 +1,17 @@
 import React, { useState } from 'react';
 import './App.css';
-import { useInput } from './hooks/useInput';
+import Hover from './components/Hover';
+import Inputs from './components/Inputs';
+
 
 function App() {
 
- const username = useInput ('')
- const userpass = useInput ('')
- console.log(username);
+ 
 
   return (
     <div className={"App"}>
-     <input
-          {...username}
-          type='text' 
-          placeholder='Имя'     />
-     <input
-          {...userpass}
-          type='password' 
-          placeholder='Пароль'  />
+      <Inputs />
+      <Hover  />
     </div>
   )
 }
