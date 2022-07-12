@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import Hover from './components/Hover';
 import Inputs from './components/Inputs';
-import TodoList from './components/TodosList'
+import TodoList from './components/TodosList';
 
 
 function App() {
