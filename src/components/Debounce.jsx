@@ -25,7 +25,8 @@ const Debounce = () => {
             <input 
                 value = { value }
                 onChange = { onChange }
-                placeholder='Введите запрос'/>
+                placeholder='Введите запрос'
+                />
                 <h3>{ info }</h3>
         </div>
     )

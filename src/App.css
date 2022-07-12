@@ -3,6 +3,16 @@
           margin: 0;
          padding: 0;
 }
+.App h2 {
+      text-align: center;
+          margin: 50px auto;
+   margin-bottom: 20px;
+}
+.Input-Block {
+           width: 300px;
+      text-align: center;
+          margin: 0 auto;
+}
 .HoverBlocks {
          display: flex;
  justify-content: space-between;
@@ -57,7 +67,7 @@
 .Debounce {
            width: 300px;
           height: 100px;
-          margin: 20px 40px;
+          margin: 20px auto;
          padding: 10px;
           border: 1px solid black;
 }

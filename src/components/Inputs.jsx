@@ -7,7 +7,7 @@ function Inputs() {
  const userpass = useInput ('')
 
   return (
-    <div>
+    <div className={'Input-Block'}>
             <input
                 {...username}
                 type='text' 

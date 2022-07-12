@@ -3,6 +3,7 @@ import './App.css';
 import Debounce from './components/Debounce';
 import Hover from './components/Hover';
 import Inputs from './components/Inputs';
+import Request from './components/Request';
 import TodoList from './components/TodosList'
 
 
@@ -20,6 +21,8 @@ function App() {
       <TodoList />
       <h2>useDebounce</h2>
       <Debounce />
+      <h2>useRequest</h2>
+      <Request  />
     </div>
   )
 }
