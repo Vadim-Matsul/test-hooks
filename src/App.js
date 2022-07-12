@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
-import Debounce from './components/Debounce';
 import Hover from './components/Hover';
 import Inputs from './components/Inputs';
+import OneMoreTimeDebounce from './components/OneMoreTimeDebounce';
 import TodoList from './components/TodosList'
 
 
@@ -19,7 +19,7 @@ function App() {
       <h2>useScroll</h2>
       <TodoList />
       <h2>useDebounce</h2>
-      <Debounce />
+      <OneMoreTimeDebounce />
     </div>
   )
 }
