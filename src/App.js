@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
-import Hover from './components/Hover';
-import Inputs from './components/Inputs';
-import TodoList from './components/TodosList';
+import Input from './components/Input';
+
 
 
 function App() {
@@ -11,9 +10,7 @@ function App() {
 
   return (
     <div className={"App"}>
-      <Inputs />
-      <Hover  />
-      <TodoList />
+      <Input />
     </div>
   )
 }
