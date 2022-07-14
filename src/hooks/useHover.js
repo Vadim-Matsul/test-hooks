@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useEffect, useState } from "react";
 
 export const useHover = ( ref ) => {
  const [ hoverBoolean, setHoverBoolean ] = useState ()

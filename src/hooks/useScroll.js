@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react"
+import { useEffect, useRef } from "react";
 
 export const useScroll = (parentRef, childRef, callback, page, totalPage) => {
  const observer = useRef ()
@@ -24,4 +24,5 @@ export const useScroll = (parentRef, childRef, callback, page, totalPage) => {
     observer.current.unobserve( childRef.current )
    }
  },[callback])
+ 
 }

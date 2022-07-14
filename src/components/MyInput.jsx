@@ -7,7 +7,9 @@ const MyInput = () => {
  const userMood = useInput ()
 
     return (
-        <div>
+        <div 
+          className={'Input-Block'}
+          >
             <input 
                 { ...greeting }
                 placeholder="Hello, React"
