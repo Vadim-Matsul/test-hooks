@@ -1,5 +1,6 @@
 import React  from 'react';
 import './App.css';
+import DocList from './components/DocList';
 import Hover from './components/Hover';
 import MyInput from './components/MyInput';
 
@@ -14,6 +15,8 @@ function App() {
       <MyInput />
       <h2> useHover </h2>
       <Hover   />
+      <h2> useScroll </h2>
+      <DocList />
     </div>
   )
 }
