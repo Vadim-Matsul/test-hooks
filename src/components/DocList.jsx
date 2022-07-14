@@ -8,16 +8,16 @@ import { useScroll } from "../hooks/useScroll";
 
 const DocList = () => {
  const [ todos, setTodos ] = useState ([])
-   const [ posts, setPosts ] = useState ([])
+ const [ posts, setPosts ] = useState ([])
  const [ limit, setLimit ] = useState (20)
  const [ pageTodos, setPageTodos ] = useState (1)
-   const [ pagePosts, setPagePosts ] = useState (1)
+ const [ pagePosts, setPagePosts ] = useState (1)
  const [ totalPageTodos, setTotalPageTodos ] = useState (1)
-   const [ totalPagePosts, setTotalPagePosts ] = useState (1)
- const parentTodos = useRef ()
+ const [ totalPagePosts, setTotalPagePosts ] = useState (1)
+ const    parentTodos = useRef ()
  const lastChildTodos = useRef ()
-   const parentPosts = useRef ()
-   const lastChildPosts = useRef ()
+ const    parentPosts = useRef ()
+ const lastChildPosts = useRef ()
  
  const intersectedTodos = useScroll (parentTodos, lastChildTodos, () => fetchTodos(limit, pageTodos), pageTodos, totalPageTodos )
  const intersectedPosts = useScroll (parentPosts, lastChildPosts, () => fetchPosts(limit, pagePosts), pagePosts, totalPagePosts )

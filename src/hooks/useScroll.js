@@ -6,7 +6,8 @@ export const useScroll = (parentRef, childRef, callback, page, totalPage) => {
  useEffect (() => {
 
  const params = {
-    root: parentRef.current
+          root: parentRef.current,
+    rootMargin: '150px'
  }
 
  function intersectedCallBack (entries) {
