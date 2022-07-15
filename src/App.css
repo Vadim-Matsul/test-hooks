@@ -84,15 +84,20 @@
 }
 .BallBlock {
         position: relative;
+        text-align: center;
            width: 500px;
           height: 400px;
           margin: 0 auto;
-      background: red;
 }
 .Circle {
       position: absolute;
+    text-align: center;
      transform: translateX(-50%)
                 translateY(-50%);
+     font-size: 30px;
+   font-weight: 700;
+   line-height: 240px;
+ border-radius: 50%;
     background: blue;
-    transition: all 2s;
+    transition: all 2s ease-in-out;
 }
