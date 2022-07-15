@@ -6,7 +6,7 @@ import  MyInput from './components/MyInput' ;
 import  Request from './components/Request' ;
 import BallBlock from './components/BallBlock';
 import './App.css';
-import './utils/promise'
+import './utils/promise';
 
 function App() {
 

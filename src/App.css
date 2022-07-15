@@ -98,6 +98,7 @@
    font-weight: 700;
    line-height: 240px;
  border-radius: 50%;
+        border: 1px dashed black;
     background: blue;
     transition: all 2s ease-in-out;
 }
