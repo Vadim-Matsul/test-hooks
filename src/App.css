@@ -84,21 +84,22 @@
 }
 .BallBlock {
         position: relative;
-        text-align: center;
+      text-align: center;
            width: 500px;
           height: 400px;
           margin: 0 auto;
 }
 .Circle {
-      position: absolute;
-    text-align: center;
-     transform: translateX(-50%)
-                translateY(-50%);
-     font-size: 30px;
-   font-weight: 700;
-   line-height: 240px;
- border-radius: 50%;
-        border: 1px dashed black;
-    background: blue;
-    transition: all 2s ease-in-out;
+        position: absolute;
+      text-align: center;
+         display: inline-block;
+         transform: translateX(-70%);
+       font-size: 30px;
+     font-weight: 700;
+     line-height: 200px;
+   border-radius: 50%;
+          margin: 50px auto;
+          border: 1px dashed black;
+      background: blue;
+      transition: all 2s ease-in-out;
 }
