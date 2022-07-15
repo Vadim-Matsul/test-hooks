@@ -82,3 +82,17 @@
          padding: 10px;
           border: 1px solid black;
 }
+.BallBlock {
+        position: relative;
+           width: 500px;
+          height: 400px;
+          margin: 0 auto;
+      background: red;
+}
+.Circle {
+      position: absolute;
+     transform: translateX(-50%)
+                translateY(-50%);
+    background: blue;
+    transition: all 2s;
+}

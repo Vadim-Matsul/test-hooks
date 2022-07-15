@@ -4,7 +4,9 @@ import  DocList from './components/DocList' ;
 import    Hover from './components/Hover'   ;
 import  MyInput from './components/MyInput' ;
 import  Request from './components/Request' ;
+import BallBlock from './components/BallBlock';
 import './App.css';
+import './utils/promise'
 
 function App() {
 
@@ -13,15 +15,17 @@ function App() {
   return (
     <div className={"App"}>
       <h2>  useInput  </h2>
-      <MyInput  />
+      <MyInput   />
       <h2>  useHover  </h2>
-      <Hover    />
+      <Hover     />
       <h2>  useScroll </h2>
-      <DocList  />
+      <DocList   />
       <h2> useDebounce</h2>
-      <Debounce />
+      <Debounce  />
       <h2> useRequest </h2>
-      <Request  />
+      <Request   />
+      <h2> Element with Promise </h2>
+      <BallBlock />
     </div>
   )
 }
