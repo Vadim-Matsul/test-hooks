@@ -19,7 +19,7 @@ const BallBLock = () => {
             div.style.height = size*2 + 'px'
 
          div.addEventListener('transitionend', () => resolve(div) )
-        })
+        },0)
     })
  }
 

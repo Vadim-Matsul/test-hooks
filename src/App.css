@@ -103,3 +103,25 @@
       background: blue;
       transition: all 2s ease-in-out;
 }
+.SquareBlock{
+        position: relative;
+      text-align: center;
+          margin: auto;
+           width: 300px;
+          height: 300px;
+      background: grey;
+      
+}
+.Square {
+        position: absolute;
+      text-align: center;
+       transform: translateX(-50%);
+           width: 300px;
+          height: 300px;
+      background: rgba(36, 16, 16, 0.05);
+      transition: all 0.3s;
+}
+.Square-Color {
+      border-radius: 50%;
+      background: rgba(0, 0, 255, 0.425);
+}
